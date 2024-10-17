@@ -54,7 +54,7 @@ const onSubmit = handleSubmit(values => {
 
 <template>
    <nav>
-    <div class="left">EpubPress on The Web</div>
+    <div class="left">EpubPress on the Web</div>
     <div class="right">
       <a href="https://github.com/uroybd/epubpress-web" target="_blank" rel="noopener">GitHub</a>
       <a href="https://epub.press/" target="_blank" rel="noopener">EpubPress</a>
