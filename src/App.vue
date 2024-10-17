@@ -13,7 +13,7 @@ const { meta, defineField, handleSubmit, errors } = useForm({
     validationSchema: yup.object({
       title: yup.string().required().default('Created with EpubPress'),
       description: yup.string().required().default('Created with EpubPress'),
-      urls: yup.string().required().test({
+      urls: yup.string().required('URLs are required.').test({
       name: 'valid-urls',
       test: (value, ctx) => {
         for (const url of value.split('\n')) {
