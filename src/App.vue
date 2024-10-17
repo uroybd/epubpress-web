@@ -149,8 +149,6 @@ main {
 
       .error {
         color: red;
-        border: 1px solid red;
-        border-radius: 5px;
         padding: 10px;
       }
     }
