@@ -145,6 +145,7 @@ main {
         padding: 10px;
         border: 1px solid #ccc;
         border-radius: 5px;
+        max-width: 100%;
       }
 
       .error {
